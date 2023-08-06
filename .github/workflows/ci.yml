@@ -35,5 +35,8 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
         run: echo "USERNAME=$USERNAME\nPASSWORD=$PASSWORD" >> .env
 
+      - name: Set display configuration (if running in a headless environment)
+        run: export DISPLAY=:99
+
       - name: Run tests
         run: npm test
