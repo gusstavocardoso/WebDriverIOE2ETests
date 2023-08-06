@@ -29,8 +29,8 @@ jobs:
           chmod +x /tmp/chromedriver
           mv /tmp/chromedriver /usr/local/bin/chromedriver
 
-      - name: Set display configuration (if running in a headless environment)
-        run: export DISPLAY=:99
+      #- name: Set display configuration (if running in a headless environment)
+      #  run: export DISPLAY=:99
         
       - name: Set environment variables
         env:
