@@ -1,6 +1,6 @@
 # Testes End-to-End com WebdriverIO
 
-![webdriverio](https://github.com/gusstavocardoso/WebDriverIOE2ETests/assets/52720347/174f5258-142d-4d82-af94-76e7d2f40d27)
+![webdriverio](https://github.com/gusstavocardoso/WebDriverIOE2ETests/assets/52720347/6fb60a5f-c60b-429f-bd90-ade5c2e9d699)
 
 
 Este repositório contém testes end-to-end (E2E) utilizando o framework WebdriverIO para realizar testes automatizados em uma aplicação web.
